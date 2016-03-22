@@ -1,0 +1,72 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>GCSE English & Maths countdown</title>
+        
+
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+        <link rel="stylesheet" href="css/styles.css" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+   
+        <script src="js/jquery.countdown.min.js"></script>
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <div class="logo-span"><img class="logo" src="img/logo.jpg"></div>
+        <h1>GCSE English & Maths countdown</h1>
+        <div class="bar">
+            <div class="left">
+                <h2>GCSE English<br>Exam starts in</h2>
+                <div id="english"></div>
+        </div>
+        <div class="right">
+                <h2>GCSE Maths<br>Exam starts in</h2>
+                <div id="maths"></div>
+            </div>
+        </div>
+        <div class="info">
+            <p>Maths 26th May & 9th June</p>
+            <p>English 3rd May</p>    
+            <br>
+        <p>For details of exams and revision<br>sessions visit:</p>
+        <a href="https://vle.cant-col.ac.uk/maths">https://vle.cant-col.ac.uk/maths</a><br>
+        <a href="https://vle.cant-col.ac.uk/english">https://vle.cant-col.ac.uk/english</a>
+        </div>
+<div class="footer">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+</div>
+      
+ <script type="text/javascript">
+   $("#english")
+   .countdown("2016/05/03 09:30", function(event) {
+     $(this).text(
+       event.strftime('%D days %H:%M:%S')
+     );
+   });
+   
+      $("#maths")
+   .countdown("2016/05/26 09:30", function(event) {
+     $(this).text(
+       event.strftime('%D days %H:%M:%S')
+     );
+   });
+ </script>
+
+
+    </body>
+</html>
+
