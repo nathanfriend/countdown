@@ -1,14 +1,8 @@
-
-
-
-
-
-
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>GCSE English & Maths countdown</title>
+        <title>GCSE Maths countdown</title>
         
 
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
@@ -24,24 +18,23 @@
     
     <body>
         <div class="logo-span"><img class="logo" src="img/logo.jpg"></div>
-        <h1>GCSE English & Maths countdown</h1>
+        <h1>GCSE Maths countdown</h1>
         <div class="bar">
             <div class="left">
-                <h2>GCSE English<br>Exam starts in</h2>
+                <h2>GCSE Maths<br>(Non Calculator)<br>Exam starts in</h2>
                 <div id="english"></div>
         </div>
         <div class="right">
-                <h2>GCSE Maths<br>Exam starts in</h2>
+                <h2>GCSE Maths<br>(Calculator)<br>Exam starts in</h2>
                 <div id="maths"></div>
             </div>
         </div>
         <div class="info">
-            <p>Maths 26th May & 9th June</p>
-            <p>English 3rd May</p>    
+            <p>09:30 Maths (Non Calculator) 26th May</p>
+            <p>09:30 Maths (Calculator) 9th June</p>    
             <br>
         <p>For details of exams and revision<br>sessions visit:</p>
-        <a href="https://vle.cant-col.ac.uk/maths">https://vle.cant-col.ac.uk/maths</a><br>
-        <a href="https://vle.cant-col.ac.uk/english">https://vle.cant-col.ac.uk/english</a>
+        <a href="https://vle.cant-col.ac.uk/maths">https://vle.cant-col.ac.uk/maths</a>
         </div>
 <div class="footer">
     <div class="one"></div>
@@ -52,14 +45,14 @@
       
  <script type="text/javascript">
    $("#english")
-   .countdown("2016/05/03 09:30", function(event) {
+   .countdown("2016/05/26 09:30", function(event) {
      $(this).text(
        event.strftime('%D days %H:%M:%S')
      );
    });
    
       $("#maths")
-   .countdown("2016/05/26 09:30", function(event) {
+   .countdown("2016/06/09 09:30", function(event) {
      $(this).text(
        event.strftime('%D days %H:%M:%S')
      );
