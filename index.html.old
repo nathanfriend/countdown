@@ -10,8 +10,9 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
    
-        <script src="js/jquery.countdown.min.js"></script>
-        <!--[if lt IE 9]>
+   
+        <script src="js/jquery.countdown.min.js"></script>        
+<!--[if lt IE 9]>
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
     </head>
@@ -30,8 +31,8 @@
             </div>
         </div>
         <div class="info">
-            <p>09:30 Maths (Non Calculator) 26th May</p>
-            <p>09:30 Maths (Calculator) 9th June</p>    
+            <p>09:30 26<sup>th</sup> May Maths (Non Calculator)</p>
+            <p>09:30 9<sup>th</sup> June Maths (Calculator)</p>    
             <br>
         <p>For details of exams and revision<br>sessions visit:</p>
         <a href="https://vle.cant-col.ac.uk/maths">https://vle.cant-col.ac.uk/maths</a>
@@ -62,4 +63,5 @@
 
     </body>
 </html>
+
 
